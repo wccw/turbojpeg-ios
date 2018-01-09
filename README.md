@@ -30,7 +30,8 @@ turbojpeg解压
 }
 ```
 
-jpeg压缩属于图片压缩算法，还有对文件而言的通用压缩算法，通用压缩算法也能够对图片进行压缩，例如通用的[zstd](https://github.com/facebook/zstd),[snappy](https://github.com/google/snappy),[lz4](https://github.com/lz4/lz4)等算法
+## 其它压缩算法
+jpeg压缩属于图片压缩算法，还有对文件而言的通用压缩算法，通用压缩算法也能够对图片进行压缩，例如 [zstd](https://github.com/facebook/zstd) [snappy](https://github.com/google/snappy) [lz4](https://github.com/lz4/lz4) 
 
 zstd压缩
 ```
