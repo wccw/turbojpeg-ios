@@ -113,7 +113,6 @@ lz4压缩
 lz4解压
 ```
 +(NSData *)lz4Decompress:(NSData *)data {
-    int dstSize = data.length;
     char *outBuff = malloc(dstSize);
     dstSize = LZ4_decompress_safe(data.bytes, outBuff, (int)conData.length, dstSize);
     //dstSize = LZ4_decompress_fast(data.bytes, outBuff, dstSize);
