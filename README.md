@@ -1,5 +1,4 @@
 # turbojpeg-ios
-turbojpeg for ios
 libturbojpeg libjpeg iOS 静态库
 
 turbojpeg压缩
@@ -17,7 +16,7 @@ turbojpeg压缩
 
 turbojpeg解压
 ```
-+(NSData *)turboJpegDecompress:(NSData *)data withWidth:(int)widht withHeight:(int)height {
++(NSData *)turboJpegDecompress:(NSData *)data withWidth:(int)width withHeight:(int)height {
     tjhandle deHandle = tjInitDecompress();
     long size = width * height * 4;
     unsigned char *dstBuf = malloc(size);
